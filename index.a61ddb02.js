@@ -1,0 +1,2 @@
+const e=e=>{e.classList.add("show")},t=e=>{e.classList.remove("show"),setTimeout(()=>{e.remove()},1e3)};(()=>{let o=document.getElementById("hidden-intro-hi"),s=document.getElementById("hidden-intro-journey"),n=document.getElementsByClassName("hidden-element app-container")[0];e(o),setTimeout(()=>{t(o),setTimeout(()=>{e(s),setTimeout(()=>{t(s),setTimeout(()=>{e(n)},1e3)},2e3)},1e3)},2e3)})();
+//# sourceMappingURL=index.a61ddb02.js.map
